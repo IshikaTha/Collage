@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginHorizontal="5dp"
+    android:layout_marginVertical="5dp"
+    android:paddingVertical="5dp"
+    app:cardCornerRadius="10dp"
+    android:elevation="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/card"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.8"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:paddingVertical="2dp"
+                android:gravity="center_vertical">
+
+                <TextView
+                    android:id="@+id/facultyName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sourish_mitra"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size1"
+                    android:fontFamily="@string/normal"
+                    android:textStyle="bold"
+                    android:ellipsize="marquee"
+                    android:scrollHorizontally="true"
+                    android:singleLine="true"
+                    android:textAllCaps="true"
+                    android:marqueeRepeatLimit="marquee_forever" />
+
+                <TextView
+                    android:id="@+id/facultyPost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/assistent_professor"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size01"
+                    android:fontFamily="@string/normal"
+                    android:ellipsize="marquee"
+                    android:scrollHorizontally="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"/>
+
+                <TextView
+                    android:id="@+id/facultyMail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/sourish_gmail_com"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size01"
+                    android:fontFamily="@string/normal"
+                    android:ellipsize="marquee"
+                    android:scrollHorizontally="true"
+                    android:marqueeRepeatLimit="marquee_forever"
+                    android:singleLine="true"/>
+
+                <TextView
+                    android:id="@+id/facultyPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/_9876789658"
+                    android:fontFamily="@string/normal"
+                    android:textColor="@color/text_color"
+                    android:textSize="@dimen/text_size01"/>
+
+            </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/facultyImage"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@drawable/ic_user"
+                android:layout_weight="0.2"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

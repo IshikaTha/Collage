@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.smarteist.autoimageslider.SliderLayout
+                android:id="@+id/slider"
+                android:layout_width="match_parent"
+                android:layout_height="250dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="36dp"
+                android:fontFamily="@string/bold"
+                android:text="@string/our_collage"
+                android:textColor="@color/title_color"
+                android:textSize="@dimen/title_size"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/text_margin"
+                android:layout_marginHorizontal="@dimen/text_margin"
+                android:layout_marginTop="@dimen/text_margin"
+                android:fitsSystemWindows="true"
+                android:fontFamily="@string/normal"
+                android:gravity="fill_horizontal"
+                android:justificationMode="inter_word"
+                android:text="@string/about_collage"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/text_size" />
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_marginTop="16dp"-->
+<!--                android:background="@color/color04">-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="match_parent"-->
+<!--                    android:layout_margin="10dp"-->
+<!--                    android:orientation="vertical">-->
+
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_gravity="center_horizontal"-->
+<!--                        android:layout_marginTop="16dp"-->
+<!--                        android:fontFamily="@string/bold"-->
+<!--                        android:text="Departments"-->
+<!--                        android:textColor="@color/title_color"-->
+<!--                        android:textSize="@dimen/title_size"-->
+<!--                        android:textStyle="bold" />-->
+
+<!--                    <com.google.android.material.card.MaterialCardView-->
+<!--                        android:layout_width="match_parent"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:layout_marginTop="16dp">-->
+
+<!--                        <LinearLayout-->
+<!--                            android:layout_width="match_parent"-->
+<!--                            android:layout_height="wrap_content"-->
+<!--                            android:background="@color/color04"-->
+<!--                            android:orientation="vertical">-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/tv1"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="center_horizontal"-->
+<!--                                android:layout_margin="@dimen/text_margin"-->
+<!--                                android:layout_marginHorizontal="@dimen/text_margin"-->
+<!--                                android:layout_marginTop="@dimen/text_margin"-->
+<!--                                android:text="Computer Science and Engineering"-->
+<!--                                android:textColor="@color/text_color"-->
+<!--                                android:textSize="@dimen/text_size"-->
+<!--                                android:fontFamily="@string/normal"-->
+<!--                                android:ellipsize="marquee"-->
+<!--                                android:singleLine="true"-->
+<!--                                android:marqueeRepeatLimit="marquee_forever"-->
+<!--                                android:scrollHorizontally="true"/>-->
+
+<!--                            <View-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="1dp"-->
+<!--                                android:background="@color/grey" />-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/tv2"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="center_horizontal"-->
+<!--                                android:layout_margin="@dimen/text_margin"-->
+<!--                                android:layout_marginHorizontal="@dimen/text_margin"-->
+<!--                                android:layout_marginTop="@dimen/text_margin"-->
+<!--                                android:text="Information Technology"-->
+<!--                                android:textColor="@color/text_color"-->
+<!--                                android:textSize="@dimen/text_size"-->
+<!--                                android:fontFamily="@string/normal"-->
+<!--                                android:ellipsize="marquee"-->
+<!--                                android:singleLine="true"-->
+<!--                                android:marqueeRepeatLimit="marquee_forever"-->
+<!--                                android:scrollHorizontally="true"/>-->
+
+<!--                            <View-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="1dp"-->
+<!--                                android:background="@color/grey" />-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/tv3"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="center_horizontal"-->
+<!--                                android:layout_margin="@dimen/text_margin"-->
+<!--                                android:layout_marginHorizontal="@dimen/text_margin"-->
+<!--                                android:layout_marginTop="@dimen/text_margin"-->
+<!--                                android:text="Electrical Engineering"-->
+<!--                                android:textColor="@color/text_color"-->
+<!--                                android:textSize="@dimen/text_size"-->
+<!--                                android:fontFamily="@string/normal"-->
+<!--                                android:ellipsize="marquee"-->
+<!--                                android:singleLine="true"-->
+<!--                                android:marqueeRepeatLimit="marquee_forever"-->
+<!--                                android:scrollHorizontally="true"/>-->
+
+<!--                            <View-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="1dp"-->
+<!--                                android:background="@color/grey" />-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/tv4"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="center_horizontal"-->
+<!--                                android:layout_margin="@dimen/text_margin"-->
+<!--                                android:layout_marginHorizontal="@dimen/text_margin"-->
+<!--                                android:layout_marginTop="@dimen/text_margin"-->
+<!--                                android:text="Electronics and Instrumentation Engineering"-->
+<!--                                android:fontFamily="@string/normal"-->
+<!--                                android:textColor="@color/text_color"-->
+<!--                                android:textSize="@dimen/text_size"-->
+<!--                                android:ellipsize="marquee"-->
+<!--                                android:singleLine="true"-->
+<!--                                android:marqueeRepeatLimit="marquee_forever"-->
+<!--                                android:scrollHorizontally="true" />-->
+
+<!--                            <View-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="1dp"-->
+<!--                                android:background="@color/grey" />-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/tv8"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="center_horizontal"-->
+<!--                                android:layout_margin="@dimen/text_margin"-->
+<!--                                android:layout_marginHorizontal="@dimen/text_margin"-->
+<!--                                android:layout_marginTop="@dimen/text_margin"-->
+<!--                                android:text="Applied Science and Humanities"-->
+<!--                                android:textColor="@color/text_color"-->
+<!--                                android:textSize="@dimen/text_size"-->
+<!--                                android:fontFamily="@string/normal"-->
+<!--                                android:ellipsize="marquee"-->
+<!--                                android:singleLine="true"-->
+<!--                                android:marqueeRepeatLimit="marquee_forever"-->
+<!--                                android:scrollHorizontally="true" />-->
+
+<!--                            <View-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="1dp"-->
+<!--                                android:background="@color/grey" />-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/tv6"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="center_horizontal"-->
+<!--                                android:layout_margin="@dimen/text_margin"-->
+<!--                                android:layout_marginHorizontal="@dimen/text_margin"-->
+<!--                                android:layout_marginTop="@dimen/text_margin"-->
+<!--                                android:fontFamily="@string/normal"-->
+<!--                                android:text="Electronics and Communication Engineering"-->
+<!--                                android:textColor="@color/text_color"-->
+<!--                                android:textSize="@dimen/text_size"-->
+<!--                                android:ellipsize="marquee"-->
+<!--                                android:singleLine="true"-->
+<!--                                android:marqueeRepeatLimit="marquee_forever"-->
+<!--                                android:scrollHorizontally="true"/>-->
+
+<!--                            <View-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="1dp"-->
+<!--                                android:background="@color/grey" />-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/tv7"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="center_horizontal"-->
+<!--                                android:layout_margin="@dimen/text_margin"-->
+<!--                                android:layout_marginHorizontal="@dimen/text_margin"-->
+<!--                                android:layout_marginTop="@dimen/text_margin"-->
+<!--                                android:text="Food Technology"-->
+<!--                                android:textColor="@color/text_color"-->
+<!--                                android:textSize="@dimen/text_size"-->
+<!--                                android:fontFamily="@string/normal"-->
+<!--                                android:ellipsize="marquee"-->
+<!--                                android:singleLine="true"-->
+<!--                                android:marqueeRepeatLimit="marquee_forever"-->
+<!--                                android:scrollHorizontally="true" />-->
+
+<!--                            <View-->
+<!--                                android:layout_width="match_parent"-->
+<!--                                android:layout_height="1dp"-->
+<!--                                android:background="@color/grey" />-->
+
+<!--                            <TextView-->
+<!--                                android:id="@+id/tv5"-->
+<!--                                android:layout_width="wrap_content"-->
+<!--                                android:layout_height="wrap_content"-->
+<!--                                android:layout_gravity="center_horizontal"-->
+<!--                                android:layout_margin="@dimen/text_margin"-->
+<!--                                android:layout_marginHorizontal="@dimen/text_margin"-->
+<!--                                android:layout_marginTop="@dimen/text_margin"-->
+<!--                                android:text="Computer Application"-->
+<!--                                android:textColor="@color/text_color"-->
+<!--                                android:textSize="@dimen/text_size"-->
+<!--                                android:fontFamily="@string/normal"-->
+<!--                                android:ellipsize="marquee"-->
+<!--                                android:singleLine="true"-->
+<!--                                android:marqueeRepeatLimit="marquee_forever"-->
+<!--                                android:scrollHorizontally="true"/>-->
+<!--                        </LinearLayout>-->
+
+<!--                    </com.google.android.material.card.MaterialCardView>-->
+
+<!--                </LinearLayout>-->
+<!--            </LinearLayout>-->
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

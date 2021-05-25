@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ishika.collageapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gnit_kolkata_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CollageApp">
+        <activity android:name=".eBook.PdfListActivity" />
+        <activity android:name=".eBook.PdfViewerActivity" />
+        <activity android:name=".ui.gallery.PhotoActivity" />
+        <activity android:name=".ui.gallery.PhotosActivity"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Email.LoginActivity"/>
+        <activity android:name=".Email.ProfileActivity"/>
+        <activity android:name=".Email.ResetPassword" />
+        <activity android:name=".Email.ChangeEmailActivity" />
+        <activity android:name=".Email.EditProfileActivity" />
+        <activity android:name=".Email.ForgotPasswordActivity" />
+        <activity android:name=".Email.RegisterActivity"/>
+
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

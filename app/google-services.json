@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "941768060231",
+    "firebase_url": "https://gnit-c38ad-default-rtdb.firebaseio.com",
+    "project_id": "gnit-c38ad",
+    "storage_bucket": "gnit-c38ad.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941768060231:android:52f1887aa46511e3757062",
+        "android_client_info": {
+          "package_name": "com.ishika.adminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941768060231-v0cscoeh2kub7g9n66r5ca39h1v0np58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuatUbyR4_-0VsumZDjLGD95mQQUXbc3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941768060231-v0cscoeh2kub7g9n66r5ca39h1v0np58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:941768060231:android:3c908b0c19747e1c757062",
+        "android_client_info": {
+          "package_name": "com.ishika.collageapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "941768060231-v0cscoeh2kub7g9n66r5ca39h1v0np58.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuatUbyR4_-0VsumZDjLGD95mQQUXbc3E"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "941768060231-v0cscoeh2kub7g9n66r5ca39h1v0np58.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

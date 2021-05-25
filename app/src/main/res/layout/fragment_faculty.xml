@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.faculty.FacultyFragment">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_margin="10dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+                        <TextView
+                            android:id="@+id/cs"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/computer_science_and_engineering"
+                            android:textSize="22sp"
+                            android:padding="5dp"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:singleLine="true"
+                            android:scrollHorizontally="true"
+                            android:background="@color/color01">
+                        </TextView>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"
+                            android:background="#c1c1c1"
+                            android:layout_marginVertical="4dp"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/csDepartment"
+                            android:nestedScrollingEnabled="false"
+                            android:visibility="gone"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone"
+                            android:id="@+id/csNoData">
+                            <include layout="@layout/no_data_found" />
+                        </LinearLayout>
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="#121212"
+                            android:layout_marginVertical="8dp"/>
+
+                        <TextView
+                            android:id="@+id/it"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/information_technology"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textSize="22sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:singleLine="true"
+                            android:scrollHorizontally="true"
+                            android:background="@color/color02">
+                        </TextView>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"
+                            android:background="#c1c1c1"
+                            android:layout_marginVertical="4dp"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/itDepartment"
+                            android:nestedScrollingEnabled="false"
+                            android:visibility="gone"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone"
+                            android:id="@+id/itNoData">
+                            <include layout="@layout/no_data_found"/>
+                        </LinearLayout>
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="#121212"
+                            android:layout_marginVertical="8dp"/>
+
+                        <TextView
+                            android:id="@+id/ee"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/electrical_engineering"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textSize="22sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:scrollHorizontally="true"
+                            android:singleLine="true"
+                            android:background="@color/color03">
+                        </TextView>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"
+                            android:layout_marginVertical="4dp"
+                            android:background="#c1c1c1" />
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/eeDepartment"
+                            android:nestedScrollingEnabled="false"
+                            android:visibility="gone"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone"
+                            android:id="@+id/eeNoData">
+                            <include layout="@layout/no_data_found"/>
+                        </LinearLayout>
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="#121212"
+                            android:layout_marginVertical="8dp"/>
+                        <TextView
+                            android:id="@+id/eie"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/electronics_and_instrumentation_engineering"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textSize="22sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:singleLine="true"
+                            android:scrollHorizontally="true"
+                            android:background="@color/color04">
+                        </TextView>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"
+                            android:background="#c1c1c1"
+                            android:layout_marginVertical="4dp"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/eieDepartment"
+                            android:nestedScrollingEnabled="false"
+                            android:visibility="gone"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone"
+                            android:id="@+id/eieNoData">
+                            <include layout="@layout/no_data_found"/>
+                        </LinearLayout>
+
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="#121212"
+                            android:layout_marginVertical="8dp"/>
+                        <TextView
+                            android:id="@+id/ece"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/electronics_and_communication_engineering"
+                            android:gravity="center"
+                            android:textSize="22sp"
+                            android:padding="5dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:singleLine="true"
+                            android:scrollHorizontally="true"
+                            android:background="@color/color06">
+                        </TextView>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"
+                            android:background="#c1c1c1"
+                            android:layout_marginVertical="4dp"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ecDepartment"
+                            android:nestedScrollingEnabled="false"
+                            android:visibility="gone"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone"
+                            android:id="@+id/ecNoData">
+                            <include layout="@layout/no_data_found"/>
+                        </LinearLayout>
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="#121212"
+                            android:layout_marginVertical="4dp"/>
+                        <TextView
+                            android:id="@+id/ft"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/food_technology"
+                            android:textSize="22sp"
+                            android:padding="5dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:singleLine="true"
+                            android:gravity="center"
+                            android:scrollHorizontally="true"
+                            android:background="@color/color07">
+                        </TextView>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"
+                            android:background="#c1c1c1"
+                            android:layout_marginVertical="4dp"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/fDepartment"
+                            android:nestedScrollingEnabled="false"
+                            android:visibility="gone"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone"
+                            android:id="@+id/fNoData">
+                            <include layout="@layout/no_data_found"/>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="#121212"
+                            android:layout_marginVertical="8dp"/>
+                        <TextView
+                            android:id="@+id/ashu"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/applied_science_and_humanities"
+                            android:gravity="center"
+                            android:textSize="22sp"
+                            android:padding="5dp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:singleLine="true"
+                            android:scrollHorizontally="true"
+                            android:background="@color/color08">
+                        </TextView>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"
+                            android:background="#c1c1c1"
+                            android:layout_marginVertical="4dp"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/ashuDepartment"
+                            android:nestedScrollingEnabled="false"
+                            android:visibility="gone" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone"
+                            android:id="@+id/ashuNoData">
+                            <include layout="@layout/no_data_found"/>
+                        </LinearLayout>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="1dp"
+                            android:background="#121212"
+                            android:layout_marginVertical="8dp"/>
+
+                        <TextView
+                            android:id="@+id/ca"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="@string/computer_application"
+                            android:gravity="center"
+                            android:padding="5dp"
+                            android:textSize="22sp"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:ellipsize="marquee"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:singleLine="true"
+                            android:scrollHorizontally="true"
+                            android:background="@color/color05">
+                        </TextView>
+
+                        <View
+                            android:layout_width="wrap_content"
+                            android:layout_height="5dp"
+                            android:background="#c1c1c1"
+                            android:layout_marginVertical="4dp"/>
+
+                        <androidx.recyclerview.widget.RecyclerView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/caDepartment"
+                            android:nestedScrollingEnabled="false"
+                            android:visibility="gone"
+                            />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:visibility="gone"
+                            android:id="@+id/caNoData">
+                            <include layout="@layout/no_data_found"/>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+    </LinearLayout>
+    <ProgressBar
+        android:id="@+id/progressBar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+</FrameLayout>

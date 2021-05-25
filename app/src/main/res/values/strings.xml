@@ -1,0 +1,104 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">GNIT</string>
+    <string name="start">Start</string>
+    <string name="close">Close</string>
+
+    <string name="bold" tools:ignore="ReferenceType">@font/almendra_display</string>
+    <string name="light" tools:ignore="ReferenceType">@font/lily_script_one</string>
+    <string name="normal" tools:ignore="ReferenceType">monospace</string>
+
+
+    <string name="about_collage">Guru Nanak Institute of Technology was instituted with a vision to empower the aspiring
+        professionals with the technological knowledge and professional expertise under the aegis of JIS Group Educational
+        Initiatives in the year 2003.This technical campus offers undergraduate and postgraduate courses under the patronage
+        of West Bengal University of Technology (WBUT now MAKAUT) and some courses are NBA Accredited.The Institute is
+        approved by AICTE and accredited by UGC, NAAC, and located in one of the prime locations in North Kolkata near
+        Sodepur.</string>
+
+    <string name="about_us">The departments of GNIT has highly experienced faculty with industry and research experience. Most of the
+        faculties are postgraduates and PhD. Faculties of GNIT continues to strive hard for the all round progress and
+        development of the students. The departments of our collage are granted with good number of sponsored projects/
+        faculty development programs/seminar grants from the funding agencies.</string>
+
+    <string name="address">157/F, Nilgunj Road, Panihati, Sodepur, Kolkata-700114, West Bengal</string>
+    <string name="phone">+913325233900</string>
+    <string name="email">info.gnit@jisgroup.org</string>
+    <string name="enter_new_e_mail">Enter new e-mail</string>
+
+    <string name="reset_password1">Reset Password?</string>
+    <string name="your_e_mail">your e-mail</string>
+
+    <string name="welcome_to_gnit">Welcome! to GNIT</string>
+    <string name="e_mail">e-mail</string>
+
+    <string name="forgot_password">Forgot password?</string>
+    <string name="create_an_account">Create an account</string>
+    <string name="log_in">Log In</string>
+
+    <string name="search_here">search here</string>
+    <string name="_12_23_am">12:23 am</string>
+    <string name="_10_12_2021">10-12-2021</string>
+    <string name="your_profile">Your Profile</string>
+    <string name="your_name">Your name:</string>
+    <string name="your_batch">Your Batch:</string>
+    <string name="your_stream">Your stream:</string>
+    <string name="your_e_mail1">Your e-mail:</string>
+    <string name="edit_profile">Edit profile</string>
+    <string name="full_name">Full Name</string>
+    <string name="email2">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="update">update</string>
+
+    <string name="computer_science_engineering">computer science engineering</string>
+
+    <string name="sourish_mitra">Sourish Mitra</string>
+    <string name="assistent_professor">Assistent Professor</string>
+    <string name="sourish_gmail_com">sourish@gmail.com</string>
+    <string name="_9876789658">9876789658</string>
+
+    <string name="green_environment">Green Environment</string>
+
+    <string name="guru_nanak_institute_of_technology">Guru Nanak Institute of Technology</string>
+    <string name="courses_offered">Courses Offered</string>
+    <string name="contact_details">Contact Details</string>
+    <string name="address1">Address:</string>
+    <string name="phone1">Phone:</string>
+    <string name="e_mail1">e-mail:</string>
+    <string name="location_on_google_map">Location on Google map</string>
+    <string name="computer_science_and_engineering">Computer Science and Engineering</string>
+    <string name="information_technology">Information Technology</string>
+    <string name="electronics_and_instrumentation_engineering">Electronics and Instrumentation Engineering</string>
+    <string name="electronics_and_communication_engineering">Electronics and Communication Engineering</string>
+    <string name="food_technology">Food Technology</string>
+    <string name="applied_science_and_humanities">Applied Science and Humanities</string>
+    <string name="computer_application">Computer Application</string>
+    <string name="electrical_engineering">Electrical Engineering</string>
+
+    <string name="convocation">Convocation</string>
+
+    <string name="sih">SIH</string>
+    <string name="icm_icpc">ICM ICPC</string>
+
+    <string name="industrial_visit">Industrial Visit</string>
+
+    <string name="independence_day">Independence Day</string>
+
+    <string name="republic_day">Republic Day</string>
+
+    <string name="others">Others</string>
+    <string name="our_collage">Our Collage</string>
+    <string name="no_data_found">No data found</string>
+
+    <string name="pdf_name">pdf name</string>
+    <string name="todo">TODO</string>
+
+    <string-array name="theme">
+        <item>Default</item>
+        <item>Dark</item>
+        <item>Light</item>
+    </string-array>
+</resources>
